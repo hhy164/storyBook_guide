@@ -51,12 +51,3 @@ export const Small: Story = {
     label: 'Button',
   },
 };
-
-export const Yu: Story = {
-  args: {
-    size: 'large',
-    label: '🌧️',
-    backgroundColor: '#fac'
-  },
-
-}
