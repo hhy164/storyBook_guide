@@ -5,10 +5,16 @@ import { Button } from './Button';
 import { expect } from '@storybook/test';
 
 const meta = {
-  title: 'Example/Button',
+  title: 'Yu/Button',
   component: Button,
   parameters: {
     layout: 'centered',
+    backgrounds: {
+      values: [
+        { name: '粉色', value: 'pink' },
+        { name: '天蓝色', value: 'skyblue' }
+      ]
+    }
   },
   tags: ['autodocs'],
   argTypes: {
